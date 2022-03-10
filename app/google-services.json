@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012506021083",
+    "firebase_url": "https://babycareco225-b9e85-default-rtdb.firebaseio.com",
+    "project_id": "babycareco225-b9e85",
+    "storage_bucket": "babycareco225-b9e85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012506021083:android:f9461d478acb08a3a4d0fe",
+        "android_client_info": {
+          "package_name": "com.example.babycareco225"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012506021083-5c8ebr0g0795ot9mfd5tflgsj257h2dc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.babycareco225",
+            "certificate_hash": "5d37e40a8410e341d921a0342a6aca0278052629"
+          }
+        },
+        {
+          "client_id": "1012506021083-bnmr7j0k9ob12v1vv2o78lucm4juii2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVsfQ7kuaB1pC8Y7KRNtn42PJbuwi2yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012506021083-bnmr7j0k9ob12v1vv2o78lucm4juii2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
