@@ -1,8 +1,36 @@
 package com.example.babycareco225;
-
+import com.google.firebase.database.Exclude;
 import java.util.Date;
 
 public class Baby {
+    public Baby(){}
+    public Baby(String id, int age, String name, float height, float weight) {
+        this.id = id;
+        this.age = age;
+        this.name = name;
+        this.height = height;
+        this.weight = weight;
+    }
+
+    @Exclude
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    private String id;
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    private int age;
     public String getName() {
         return name;
     }
