@@ -18,46 +18,34 @@ public class MainActivity extends AppCompatActivity {
     Button btnBMI;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-btnGraph=findViewById(R.id.btnGraph);
-btnMemories=findViewById(R.id.btnMemories);
+//btnMemories=findViewById(R.id.btnMemories);
 btnBMI=findViewById(R.id.btnBMI);
 
 
-        btnGraph.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), GraphActivity.class);
-                startActivityForResult(myIntent, 0);
-            }
 
-        });
+
         btnschedule = findViewById(R.id.btnSchedule);
 
         btnschedule.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), DetailsActivity.class);
+                Intent myIntent = new Intent(view.getContext(), VaccinationActivity.class);
                 startActivityForResult(myIntent, 0);
             }
 
         });
 
 
-        btnMemories.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), BMIActivity.class);
-                startActivityForResult(myIntent, 0);
-            }
-
-        });
 
 
         btnBMI.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), VaccinationActivity.class);
+                Intent myIntent = new Intent(view.getContext(), BMIActivity.class);
                 startActivityForResult(myIntent, 0);
             }
 

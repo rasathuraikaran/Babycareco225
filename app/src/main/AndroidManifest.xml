@@ -19,18 +19,8 @@
             android:name=".VaccinationActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"/>
-        <activity
-            android:name=".DataInsertionActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WeightActivity"
-            android:exported="false" />
-        <activity
-            android:name=".GraphActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DetailsActivity"
-            android:exported="false" />
+
+
         <activity
             android:name=".LoginActivity"
             android:exported="true">
